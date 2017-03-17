@@ -20,12 +20,14 @@ header
   padding: 1%;
   margin: -1%;
   width: 99%;
+  height: 13em;
 }
 
 header img
 {
   display: block;
   margin: auto;
+  padding-top: 1.8em;
 }
 
 h1
@@ -145,6 +147,45 @@ nav ul li:last-child:hover::after
 /*nav part*/
 
 /*section part*/
+section
+{
+  margin-top: 13%;
+}
+
+section h2
+{
+  font-size: 2em;
+  text-align: center;
+  margin-top: 2em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+section article
+{
+  text-align: center;
+  margin: 3.5em auto;
+  width: 80%;
+}
+
+section article h3
+{
+  font-size: 1.5em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+section article a
+{
+  text-decoration: none;
+  color: black;
+}
+
+section article p
+{
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 1.5em;
+}
+
 
 /*section part*/
 
